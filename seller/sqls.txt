@@ -1,0 +1,2 @@
+ALTER TABLE `book_request` ADD `user_id` INT NOT NULL AFTER `cover_photo`;
+ALTER TABLE `book_ad` ADD `discount` DECIMAL NOT NULL DEFAULT '0' AFTER `book_condition_status`;
